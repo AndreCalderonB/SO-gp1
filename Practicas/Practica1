@@ -1,0 +1,14 @@
+# Práctica 1
+
+## Objetivo:
+Crear 2 llamadas a sistema, una para apagar y una para reiniciar
+
+## Herramientas:
+make gcc
+
+## Conceptos:
+Un programa esta compuesto de un codigo fuente.
+Un sistema operativo está compuesto de un kernel y de aplicaciones del sistema.
+ 
+## Qué Aprendí:
+Aprendimos cómo generar funciones para un sistema operativo. Le tengo muchísimo a las personas que se encargan de trabajar con sistemas opoerativos, no me había dado cuenta de la cantidad de cosas que se tienen que tomar en cuenta para realizar algo tan "simple" como prender o apagar un sistema operativo.
