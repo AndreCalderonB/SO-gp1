@@ -14,7 +14,7 @@ Modificar al programa sh para ejecutar al programa anterior.
 
 + Esta compuesto de 3 partes:
 
- + Stack: variables limitadas. Crece de arriba hacia abajo
+ ++ Stack: variables limitadas. Crece de arriba hacia abajo
 
 + + Heap: Area de memoria dinámica: RAM + SWAP
 
