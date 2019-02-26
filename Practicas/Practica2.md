@@ -9,15 +9,25 @@ Modificar al programa sh para ejecutar al programa anterior.
 
 ## Concepto
 1) Proceso
+
 + Instancia de un programa
+
 + Esta compuesto de 3 partes:
+
 ++ Stack: variables limitadas. Crece de arriba hacia abajo
+
 ++ Heap: Area de memoria dinámica: RAM + SWAP
+
 ++ código: segentado ie es una parte
+
 + Tiene estados
+
 + Se crean mediante dos llamadas a sistema:
+
 ++ fork: clone
+
 ++ exec: cambia código
 
 + Hay un proceso padre
+
 ++ init
