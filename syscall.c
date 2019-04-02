@@ -105,6 +105,8 @@ extern int sys_write(void);
 extern int sys_uptime(void);
 extern int sys_shutdown(void);
 extern int sys_reboot(void);
+extern int sys_setpriority(void);
+extern int sys_getpriority(void);
 
 static int (*syscalls[])(void) = {
 [SYS_fork]    sys_fork,
@@ -130,11 +132,39 @@ static int (*syscalls[])(void) = {
 [SYS_close]   sys_close,
 [SYS_shutdown] sys_shutdown,
 [SYS_reboot] sys_reboot,
+[SYS_setpriority] sys_setpriority,
+[SYS_getpriority] sys_getpriority,
 };
 
 void
 syscall(void)
 {
+	char* llamadas[] = {
+	  "sys_exit",
+	  "sys_wait",
+	  "sys_pipe",
+	  "sys_read",
+	  "sys_kill",
+	  "sys_exec",
+	  "sys_fstat",
+	  "sys_chdir",
+	  "sys_dup",
+	  "sys_getpid",
+	  "sys_sbrk",
+	  "sys_sleep",
+	  "sys_uptime",
+	  "sys_open",
+	  "sys_write",
+	  "sys_mknod",
+	  "sys_unlink",
+	  "sys_link",
+	  "sys_mkdir",
+	  "sys_close",
+	  "sys_apagar",
+	  "sys_reiniciar",
+	  "sys_setpriority",
+	  "sys_getpriority",
+	};
   int num;
   struct proc *curproc = myproc();
 
