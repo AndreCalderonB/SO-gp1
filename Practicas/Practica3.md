@@ -1,4 +1,6 @@
-# Objetivo
+# Practica 2
+
+## Objetivo
 Crear un nuevo planificador basado en prioridades.
 Creaer un programa para probarlo.
 
