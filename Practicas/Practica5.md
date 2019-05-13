@@ -28,7 +28,7 @@ Hacer un spike sobre hilos, semáforos y locks.
     + Secciones críticas.
 
  # ¿Que aprendí?
-
+ 
 
  # Url del commit
 
