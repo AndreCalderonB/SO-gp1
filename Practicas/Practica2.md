@@ -33,6 +33,7 @@ git
 
 ## Que aprendi
 
+Que un proceso necesita tener sus secciones bien definidas como es el stack, heap y codigo. Asi como la importancia de entender y modificar archivo para crear nuestro codigo que en este caso recibe un string y ejecuta una aplicacion. 
 
 ## Url del commit
 
