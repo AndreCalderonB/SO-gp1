@@ -25,9 +25,9 @@ Hacer un spike sobre IPC: señales, fork/exec, memoria compartida y archivos map
     + Es un bloque de memoria compartida que esta asociado a un archivo.
     + Los cambios en el bloque se guardan automaticamente.
 
-
-
  # ¿Que aprendí?
+ 
+Que los IPC son mecanismos que permiten a los procesos sincronizarse y comunicar sus acciones entre ellos sin necedidad de estar en la misma dirección de memoria. Ademas de que es fundamental para la utilizacion del CPU en computadoras con sistema con multiples threads.
 
  # Url del commit
 
