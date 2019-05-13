@@ -23,7 +23,7 @@ Creaer un programa para probarlo.
 
 # ¿Qué apredi?
 
-
+Entender las prioridades en un planificador asi como la programacion y planificacion correcta de crear un shell y evitar los hijos en modo zombie.
 
 # Url del commit
 
