@@ -30,3 +30,5 @@ Hacer un spike sobre IPC: señales, fork/exec, memoria compartida y archivos map
  # ¿Que aprendí?
 
  # Url del commit
+
+ https://github.com/AndreCalderonB/SO-gp1/commit/6bf0a7debada94e778a17c75151fcaf278b2b95c
