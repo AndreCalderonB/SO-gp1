@@ -341,6 +341,7 @@ scheduler(void)
 	} else if(hp->priority <= p->priority){
 		hp = p;
 	}
+		p = hp;
 
       // Switch to chosen process.  It is the process's job
       // to release ptable.lock and then reacquire it
